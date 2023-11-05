@@ -5923,9 +5923,11 @@ sup {
     font-size: 75px;
   }
 }
-.avatar,
+.avatar {
+  margin: 5px auto;
+}
 .user-details {
-  text-align: center;
+  text-align: auto;
   margin: 5px auto;
 }
 .avatar {
@@ -6015,6 +6017,12 @@ body {
   cursor: pointer;
   transition: color 0.3s ease-out, background-color 0.3s ease-out,
     border-color 0.3s ease-out;
+}
+.text-link {
+  color: #9f2f5e;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out;
 }
 .project-link:active,
 .project-link:hover {
@@ -10425,4 +10433,6 @@ body {
   font-family: "Font Awesome 5 Brands";
 }
 
-a { color: inherit; }
+a {
+  color: inherit;
+}
